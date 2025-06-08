@@ -2,6 +2,7 @@ print("kushal \nghimire")
 #string operation
 str1="kushal"
 str2="ghimire"
+str1[2]="k"
 print(str1+str2)
 print(len(str1))
 fina=str1+" "+str2
