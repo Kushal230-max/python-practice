@@ -28,9 +28,9 @@ print(student.keys())#return all keys
 print(tuple(student.keys()))#in tuple
 print(list(student.values()))#return all values
 rand=list(student.items())#return all key and values as tuple
-print(rand[0])
+print(rand)
 print(student.get("name"))#it hepls ti return the value and it also make the program errorfree
 #print(student.get("name2"))#it will print none if the key doesn't exist so the program can esaily run beside thie
 newdict={"city":"ktm","abc":"sddf"}
-print(student.update(newdict))#helps to all new key and value
+student.update(newdict)#helps to all new key and value
 print(student)

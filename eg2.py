@@ -2,7 +2,7 @@ print("kushal \nghimire")
 #string operation
 str1="kushal"
 str2="ghimire"
-str1[2]="k"
+#str1[2]="k"#string is immutable(not changeable)
 print(str1+str2)
 print(len(str1))
 fina=str1+" "+str2

@@ -1,4 +1,5 @@
 #set is the collection ofthe unordered items.Each element in the set must be unique and immutable 
+#set->mutable but element of set->immutable  --element such as string and tuples
 #cannot store list and dictionary
 collection={1,2,2,2,"abc" ,"cdg" ,"abc"}
 print(collection)
