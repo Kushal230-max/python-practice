@@ -1,0 +1,11 @@
+#python can be used to perform operation on file(such as input and output)
+#reading the file
+f=open("eg7.txt","r")
+data=f.read()
+print(data)
+print(type(data))
+# line1=f.readline()
+# print(line1)
+# line2=f.readline()
+# print(line2)
+f.close()
