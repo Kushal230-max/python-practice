@@ -19,7 +19,7 @@ print(a>b)
 print(not (a>b))
 print("and operator",(a<b)and(a!=b))
 #type conversion
-a=int("2")
+a=int ("2")
 b=2.3
 print(a+b)
 b=str(b)
